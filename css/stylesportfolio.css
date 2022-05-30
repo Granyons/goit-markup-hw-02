@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background: #ffffff;
+    width: 1600px;
+    color: #212121;
+}
+
+header {
+    width: 1200px;
+    background: #ffffff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.webstudiologo {
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    box-align: Left;
+    vertical-align: Top;
+    text-decoration: none;
+    color: #2196F3;
+}
+
+.studioword {
+    color: #000000;
+}
+
+.headlink {
+    color: #212121;
+    font-weight: 500;
+    line-height: 16.4px;
+    text-decoration: none;
+}
+
+
+.headcontacts {
+    color: #757575;
+    font-weight: 500;
+    line-height: 16.4px;
+    text-decoration: none;
+}
+
+.headlink:hover,
+.headcontacts:hover {
+    color: #2196F3;
+}
+
+
+/* main */
+
+
+.project {
+        font-weight: 400;
+        color: #757575;
+        text-align: left;
+}
+
+/* foter */
+footer {
+    background-color: #2F303A;
+}
+
+.studioword-foter {
+    color: rgb(255, 255, 255);
+}
+
+.foterlogo {
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    box-align: Left;
+    vertical-align: Top;
+    text-decoration: none;
+    color: #2196F3;
+    padding-top: 60px 60px 60px 60px;
+    margin-top: 60px 60px 60px 60px;
+}
+
+[href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contacts-foter-list {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0px 0px 0px 020px; }

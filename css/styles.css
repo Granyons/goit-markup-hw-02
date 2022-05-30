@@ -1,0 +1,178 @@
+/* font-family: 'Raleway',
+sans-serif;  */
+
+body {font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+background: #ffffff;
+width: 1600px;
+color: #212121 ;
+}
+
+header {
+    width: 1600px;
+    background: #ffffff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.webstudiologo{
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    box-align: Left;
+    vertical-align: Top;
+    text-decoration: none;
+    color: #2196F3;
+}
+.studioword {
+    color: #000000;
+    }
+.headlink {
+    color: #212121;
+    font-weight: 500;
+    line-height: 16.4px;
+    text-decoration: none;
+}
+
+
+.headcontacts {
+    color: #757575;
+    font-weight: 500;
+    line-height: 16.4px;
+    text-decoration: none;
+}
+
+.headlink:hover, .headcontacts:hover {
+    color: #2196F3;
+}
+
+/* main section */
+.topback { 
+    background: #2F303A ;
+    color: #FFFFFF;
+    width: 1600px;
+    height: 600px;
+}
+.slogan {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height:60px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+.buttonorder {
+    color: #ffffff;
+    background-color: #2196F3;
+    text-align: center;
+    margin-right: 700px;
+    margin-left: 700px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+section {
+    width: 1600px;
+}
+.metod-descruption{
+    display: flex;
+
+}
+h2 {font-weight: 700;
+    font-size: 36px;
+    line-height:42px;
+    text-align: center;
+    }
+.metods-head {
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.metods-text{
+    font-weight: 400;
+    color: #757575;
+    text-align: left;
+}
+.whtat-todo-head {
+    margin-top: 90px;
+}
+.whtat-todo-list {
+    display: flex;
+    }
+.foto-keypad {
+    margin: 50px 30px 0px 215px;
+}
+.foto-laptop {
+    margin: 50px 30px 0px 0px;
+}
+.foto-laptop-b {
+    margin: 50px 30px 0px 0px;
+}
+/* our-team-section */
+.our-team-head {
+    margin-top: 180px;
+}
+.our-team-list {
+    display: flex;
+}
+
+.foto-igor {
+    margin: 50px 30px 0px 215px;
+}
+.foto-olga, .foto-nikolay, .foto-mihael {
+    margin: 50px 30px 0px 0px;
+}
+.team-person-name {
+    font-weight: 500;
+    line-height: 16px;
+    line-height: 18px;
+    text-align: center;
+    
+}
+.team-person-position {
+line-height: 18px;
+color: #757575;
+text-align: center;
+}
+
+
+/* foter */
+footer {
+    background-color:#2F303A ;
+    }
+
+.studioword-foter{
+    color: rgb(255, 255, 255);
+}
+.foterlogo {
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 31px;
+    line-height: 100%;
+    box-align: Left;
+    vertical-align: Top;
+    text-decoration: none;
+    color: #2196F3;
+    padding-top: 60px 60px 60px 60px;
+    margin-top: 60px 60px 60px 60px;
+}
+[href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contacts-foter-list {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0px 0px 0px 020px;
+}
+
+

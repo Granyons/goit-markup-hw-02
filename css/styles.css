@@ -156,12 +156,13 @@ text-align: center;
 
 /* foter */
 footer {
-    background-color:#2F303A ;
-        }
+    background-color: #2F303A;
+}
 
-.studioword-foter{
+.studioword-foter {
     color: rgb(255, 255, 255);
 }
+
 .foterlogo {
     font-family: Raleway;
     font-style: Bold;
@@ -172,18 +173,17 @@ footer {
     vertical-align: Top;
     text-decoration: none;
     color: #2196F3;
-    padding: 60px 60px 60px 60px;
-    margin: 60px 60px 60px 60px;
+    padding-top: 60px 60px 60px 60px;
+    margin-top: 60px 60px 60px 60px;
 }
+
 [href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {
     color: #FFFFFF;
     text-decoration: none;
-    margin: 0px 0px 0px 20px;
-    text-align: right
 }
+
 .contacts-foter-list {
     color: rgba(255, 255, 255, 0.6);
     margin: 0px 0px 0px 20px;
 }
-
 

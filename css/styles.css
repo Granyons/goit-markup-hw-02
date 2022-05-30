@@ -11,6 +11,7 @@ width: 1600px;
 color: #212121 ;
 }
 
+/* header section */
 header {
     width: 1600px;
     background: #ffffff;
@@ -39,7 +40,6 @@ header {
     text-decoration: none;
 }
 
-
 .headcontacts {
     color: #757575;
     font-weight: 500;
@@ -48,6 +48,10 @@ header {
 }
 
 .headlink:hover, .headcontacts:hover {
+    color: #2196F3;
+}
+.headlink:focus,
+.headcontacts:focus {
     color: #2196F3;
 }
 
@@ -77,6 +81,11 @@ header {
     height: 50px;
     border-radius: 5px;
     box-shadow: 4px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+}
+.buttonorder:hover, .buttonorder:focus {
+    background-color: #188CE8;
 }
 
 section {
@@ -148,7 +157,7 @@ text-align: center;
 /* foter */
 footer {
     background-color:#2F303A ;
-    }
+        }
 
 .studioword-foter{
     color: rgb(255, 255, 255);
@@ -163,16 +172,18 @@ footer {
     vertical-align: Top;
     text-decoration: none;
     color: #2196F3;
-    padding-top: 60px 60px 60px 60px;
-    margin-top: 60px 60px 60px 60px;
+    padding: 60px 60px 60px 60px;
+    margin: 60px 60px 60px 60px;
 }
 [href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {
     color: #FFFFFF;
     text-decoration: none;
+    margin: 0px 0px 0px 20px;
+    text-align: right
 }
 .contacts-foter-list {
     color: rgba(255, 255, 255, 0.6);
-    margin: 0px 0px 0px 020px;
+    margin: 0px 0px 0px 20px;
 }
 
 

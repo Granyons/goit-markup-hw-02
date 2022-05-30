@@ -7,6 +7,8 @@ body {
     background: #ffffff;
     width: 1600px;
     color: #212121;
+    
+    
 }
 
 header {
@@ -48,20 +50,42 @@ header {
     text-decoration: none;
 }
 
-.headlink:hover,
-.headcontacts:hover {
+.headlink:hover, .headlink:focus,
+.headcontacts:hover, .headcontacts:hover {
     color: #2196F3;
 }
 
 
-/* main */
-
+/* main-box */
 
 .project {
         font-weight: 400;
         color: #757575;
         text-align: left;
+  }
+
+/* все веб сайты приложения дизайн */
+.buttonfilter-list {
+    display: flex;
 }
+.buttonfilter {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #212121;
+    background-color: #F5F4FA ;
+    padding: 6px 22px 6px 22px;
+    border-radius: 5px;
+    cursor: pointer; }
+
+.buttonfilter:focus, .buttonfilter:hover  {
+    color: #FFFFFF;
+    background-color: #2196f3;
+
+}
+.project-variation-list {
+   }
 
 /* foter */
 footer {
@@ -93,4 +117,4 @@ footer {
 
 .contacts-foter-list {
     color: rgba(255, 255, 255, 0.6);
-    margin: 0px 0px 0px 020px; }
+    margin: 0px 0px 0px 20px; }

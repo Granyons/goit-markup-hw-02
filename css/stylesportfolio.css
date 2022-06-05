@@ -20,11 +20,21 @@ body {
     font-size: 14px;
     background: #ffffff;
     color: #212121;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
-header {
-  
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .webstudiologo {
@@ -77,13 +87,13 @@ header {
 
 .buttonfilter {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16.00px;
     line-height: 26px;
     text-align: center;
     color: #212121;
     background-color: #F5F4FA ;
     padding: 6px 22px 6px 22px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer; }
 
 .buttonfilter:focus, .buttonfilter:hover  {
@@ -94,6 +104,18 @@ header {
 .project-variation-list {
    }
 
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36.00px;
+    letter-spacing: 0.06em;
+  }
+
+.project {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.00px;
+}
 /* foter */
 footer {
     background-color: #2F303A;
@@ -117,11 +139,10 @@ footer {
     margin-top: 60px 60px 60px 60px;
 }
 
-[href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {
-    color: #FFFFFF;
-    text-decoration: none;
+.contacts-foter-list {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0px 0px 0px 20px;
 }
 
-.contacts-foter-list {
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0px 0px 0px 20px; }
+[href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {}

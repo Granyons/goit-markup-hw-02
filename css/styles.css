@@ -25,6 +25,20 @@ body {
     letter-spacing: 3%;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* header section */
 header {
 
@@ -35,11 +49,11 @@ header {
     font-style: Bold;
     font-size: 26px;
     line-height: 31px;
-    line-height: 100%;
     box-align: Left;
     vertical-align: Top;
     text-decoration: none;
     color: #2196F3;
+    
 }
 .studioword {
     color: #000000;
@@ -75,12 +89,12 @@ header {
     height: 600px;
 }
 .slogan {
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.16;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
 
 }
 .buttonorder {
@@ -101,28 +115,27 @@ header {
     background-color: #188CE8;
 }
 
+
+
 section {
     width: 1600px;
 }
 
 h2 {font-weight: 700;
     font-size: 36px;
-    line-height:42px;
+    line-height: 42.19px;
     text-align: center;
+    letter-spacing: 0.03em;
     }
 .metods-head {
     font-weight: 700;
-    line-height: 16px;
-    text-align: left;
+    line-height: 16.41px;
     text-transform: uppercase;
 }
 .metods-text{
     font-weight: 400;
     color: #757575;
     text-align: left;
-}
-.whtat-todo-head {
-    margin-top: 90px;
 }
 
 .foto-keypad {
@@ -147,15 +160,17 @@ h2 {font-weight: 700;
 }
 .team-person-name {
     font-weight: 500;
-    line-height: 16px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 18.75px;
     text-align: center;
     
 }
 .team-person-position {
-line-height: 18px;
-color: #757575;
-text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #757575;
+    text-align: center;
 }
 
 
@@ -182,13 +197,12 @@ footer {
     margin-top: 60px 60px 60px 60px;
 }
 
-[href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {
-    color: #FFFFFF;
-    text-decoration: none;
-}
+
 
 .contacts-foter-list {
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     margin: 0px 0px 0px 20px;
 }
 
+[href="https://goo.gl/maps/RiCtfUiZejfkSYfk7"] {}

@@ -8,8 +8,11 @@
         --main-color: #212121;
         --grey-color: #757575;
         --sky-color: #2196F3;
-        background-color: #ffffff;
-        --darkback-color: #2F303A;
+        --white-color: #FFFFFF;
+        --darkhalf-color: #2F303A;
+        --darkest-color: #000000;
+        --lamp-color: #ECECEC;
+        --ice-color: #F5F4FA;
 }
 
 body {

@@ -104,10 +104,7 @@ header {
 section {
     width: 1600px;
 }
-.metod-descruption{
-    display: flex;
 
-}
 h2 {font-weight: 700;
     font-size: 36px;
     line-height:42px;
@@ -127,9 +124,7 @@ h2 {font-weight: 700;
 .whtat-todo-head {
     margin-top: 90px;
 }
-.whtat-todo-list {
-    display: flex;
-    }
+
 .foto-keypad {
     margin: 50px 30px 0px 215px;
 }
@@ -142,9 +137,6 @@ h2 {font-weight: 700;
 /* our-team-section */
 .our-team-head {
     margin-top: 180px;
-}
-.our-team-list {
-    display: flex;
 }
 
 .foto-igor {

@@ -74,11 +74,9 @@ header {
   }
 
 /* все веб сайты приложения дизайн */
-.buttonfilter-list {
-    display: flex;
-}
+
 .buttonfilter {
-font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;

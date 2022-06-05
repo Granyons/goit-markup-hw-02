@@ -1,14 +1,18 @@
+
+:root {
+    main-color: #212121;
+    blue-color: #2196F3;
+    grey-color: #757575;
+    main-font: 14px;
+    secondary-font: 26px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
     background: #ffffff;
-    width: 1600px;
     color: #212121;
-    
-    
+    letter-spacing: 3%;
 }
 
 header {

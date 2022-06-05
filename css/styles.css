@@ -2,19 +2,24 @@
 sans-serif;  */
 
 :root {
-main-color: #212121;
-blue-color: #2196F3;
-grey-color: #757575;
-main-font: 14px;
-secondary-font: 26px;
+    --main-font: 14px;
+    --secondary-font: 26px;
+    margin: 0;
+    padding: 0;
+
+    --main-color: #212121;
+    --grey-color: #757575;
+    --sky-color: #2196F3;
+    background-color: #ffffff;
+    --darkback-color: #2F303A;
 }
 
 body {
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-background: #ffffff;
-color: #212121;
-letter-spacing: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #ffffff;
+    color: #212121;
+    letter-spacing: 3%;
 }
 
 /* header section */

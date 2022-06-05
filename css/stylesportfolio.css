@@ -37,6 +37,12 @@ body {
     overflow: hidden;
 }
 
+li {
+    list-style-type: none;
+}
+
+/* header section */
+
 .webstudiologo {
     font-family: Raleway;
     font-style: Bold;

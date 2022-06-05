@@ -39,6 +39,11 @@ body {
     overflow: hidden;
 }
 
+li {
+    list-style-type: none;
+}
+
+
 /* header section */
 header {
 

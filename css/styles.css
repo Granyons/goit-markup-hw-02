@@ -1,0 +1,23 @@
+/*font-family: 'Raleway', sans-serif;*/
+:root {
+  --primary-acsent-color: #4d5ae5;
+  --second-acsent-color: #404bbf;
+  --text-color: #434455;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.adress-list .link {
+  color: var(--text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--primary-acsent-color);
+}
+.link:active {
+  color: var(--second-acsent-color);
+}

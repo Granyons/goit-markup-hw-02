@@ -19,7 +19,10 @@ body {
 .logotype {
   line-height: 1.17;
 }
-
+.logotype:hover,
+.logotype:focus {
+  color: var(--second-acsent-color);
+}
 .navigation .logotype,
 .footer-section .logotype {
   font-family: 'Raleway', sans-serif;
@@ -111,6 +114,6 @@ body {
   background-color: var(--primary-color);
   text-align: left;
 }
-.footer-section > .link {
+.footer-section .logotype {
   color: #f4f4fd;
 }

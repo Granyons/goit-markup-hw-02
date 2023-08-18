@@ -11,7 +11,10 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
   color: var(--primary-color);
-  font-weight: 500;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   text-align: center;
 }
 .navigation > .link,
@@ -20,6 +23,7 @@ body {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1.166;
 }
 .acsent-logo {
   color: var(--first-acsent-color);
@@ -27,6 +31,7 @@ body {
 .link {
   text-decoration: none;
   color: var(--primary-color);
+  font-weight: 500;
 }
 .list .link {
   color: var(--text-color);
@@ -47,14 +52,14 @@ body {
 h1 {
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.071;
 }
 
 button {
   background-color: var(--first-acsent-color);
   color: var(--white-color);
-
-  font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
 }
 button:hover,
 button:focus {
@@ -71,6 +76,7 @@ button:focus {
 .title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.111;
 }
 .title-colorless {
   color: var(--white-color);
@@ -81,18 +87,17 @@ button:focus {
 }
 .list .title {
   font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .text {
-  font-size: 16px;
   color: var(--text-color);
-  font-weight: 400;
 }
 
 .footer-section {
   color: #f4f4fd;
   background-color: var(--primary-color);
-  font-weight: 400;
   text-align: left;
 }
 .footer-section > .link {

@@ -16,13 +16,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.logotype {
-  line-height: 1.17;
-}
-.logotype:hover,
-.logotype:focus {
-  color: var(--second-acsent-color);
-}
+
 .navigation .logotype,
 .footer-section .logotype {
   font-family: 'Raleway', sans-serif;
@@ -31,7 +25,9 @@ body {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.17;
 }
+
 .acsent-logo {
   color: var(--primary-color);
 }

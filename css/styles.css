@@ -3,28 +3,27 @@
   --primary-color: #2e2f42;
   --first-acsent-color: #4d5ae5;
   --second-acsent-color: #404bbf;
-  --text-color: #434455;
   --white-color: #ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
-  color: var(--text-color);
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.navigation > .link,
-.footer-section > .link {
+.navigation .logotype,
+.footer-section .logotype {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: var(--first-acsent-color);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .acsent-logo {
@@ -32,14 +31,8 @@ body {
 }
 .link {
   text-decoration: none;
-  color: var(--text-color);
-  font-style: normal;
+  color: #434455;
 }
-.navigation .list .link {
-  color: var(--primary-color);
-  font-weight: 500;
-}
-
 .link:hover,
 .link:focus {
   color: var(--first-acsent-color);
@@ -47,27 +40,36 @@ body {
 .link:active {
   color: var(--second-acsent-color);
 }
+.nav-link {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.contacts {
+  font-style: normal;
+}
+.solutions-business {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
 
 .button-section {
   background-color: var(--primary-color);
   color: var(--white-color);
+  letter-spacing: 0.02em;
+  cursor: pointer;
 }
 
-h1 {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-}
-
-button {
+.button {
   background-color: var(--first-acsent-color);
   color: var(--white-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: var(--second-acsent-color);
 }
 .technology-section,
@@ -77,12 +79,17 @@ button:focus {
 .team-section {
   background-color: #f4f4fd;
 }
+.item-list {
+  background-color: #ffffff;
+}
 
 .title {
   color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .title-colorless {
   color: var(--white-color);
@@ -95,10 +102,6 @@ button:focus {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-}
-
-.text {
-  color: var(--text-color);
 }
 
 .footer-section {

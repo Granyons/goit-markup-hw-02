@@ -10,32 +10,36 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
-  color: var(--primary-color);
-
+  color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .navigation > .link,
 .footer-section > .link {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
+  color: var(--first-acsent-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.166;
+  letter-spacing: 0.03em;
 }
 .acsent-logo {
-  color: var(--first-acsent-color);
+  color: var(--primary-color);
 }
 .link {
   text-decoration: none;
+  color: var(--text-color);
+  font-style: normal;
+}
+.navigation .list .link {
   color: var(--primary-color);
   font-weight: 500;
 }
-.list .link {
-  color: var(--text-color);
-}
+
 .link:hover,
 .link:focus {
   color: var(--first-acsent-color);
@@ -52,7 +56,7 @@ body {
 h1 {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
 }
 
 button {
@@ -60,6 +64,7 @@ button {
   color: var(--white-color);
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 button:hover,
 button:focus {
@@ -74,6 +79,7 @@ button:focus {
 }
 
 .title {
+  color: var(--primary-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.111;

@@ -72,26 +72,28 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.contacts {
+  font-style: normal;
+}
 .contact-link {
   color: #434455;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  font-style: normal;
 }
 
 /* hero and button section */
 .hero-section {
   background-color: var(--primary-color);
   color: var(--white-color);
-  letter-spacing: 0.02em;
   text-align: center;
 }
 .hero-section-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .hero-section .button {
   background-color: var(--first-acsent-color);

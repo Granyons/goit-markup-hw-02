@@ -11,12 +11,46 @@ body {
   background-color: var(--white-color);
   color: #434455;
   font-size: 16px;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.undertitle {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+}
+.list {
+  list-style-type: none;
+}
+.item-list {
+  background-color: #ffffff;
 }
 
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--second-acsent-color);
+}
+.link:active {
+  color: var(--second-acsent-color);
+}
+/* header section */
 .navigation .logotype,
 .footer-section .logotype {
   font-family: 'Raleway', sans-serif;
@@ -27,41 +61,39 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.17;
 }
-
 .acsent-logo {
   color: var(--primary-color);
 }
-.link {
-  text-decoration: none;
-  color: #434455;
-}
-.link:hover,
-.link:focus {
-  color: var(--second-acsent-color);
-}
-.link:active {
-  color: var(--second-acsent-color);
-}
+
 .nav-link {
   color: var(--primary-color);
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-.contacts {
+.contact-link {
+  color: #434455;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
   font-style: normal;
 }
 
-.button-section {
+/* hero and button section */
+.hero-section {
   background-color: var(--primary-color);
   color: var(--white-color);
   letter-spacing: 0.02em;
+  text-align: center;
 }
-.button-section .solution-business {
+.hero-section-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02em;
 }
-.button-section .button {
+.hero-section .button {
   background-color: var(--first-acsent-color);
   color: var(--white-color);
   font-weight: 500;
@@ -73,38 +105,21 @@ body {
 .button:focus {
   background-color: var(--second-acsent-color);
 }
-.technology-section,
-.portfolio-section {
-  text-align: left;
-}
-.team-section {
-  background-color: #f4f4fd;
-}
-.item-list {
-  background-color: #ffffff;
-}
-
-.title {
-  color: var(--primary-color);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
+/* business technology section */
 .title-colorless {
   color: var(--white-color);
 }
-
-.list {
-  list-style-type: none;
+/* team members section */
+.team-section {
+  background-color: #f4f4fd;
+  text-align: center;
 }
-.list .title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+/* Our Portfolio section */
+.portfolio-section-title {
+  text-align: center;
 }
 
+/* page footer */
 .footer-section {
   color: #f4f4fd;
   background-color: var(--primary-color);

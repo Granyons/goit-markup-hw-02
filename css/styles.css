@@ -117,12 +117,12 @@ body {
   color: var(--white);
 
   background-color: var(--iris);
-  width: 169px;
-  height: 56px;
-
-  border-radius: 4px;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
 /* (undertitles & title & text)  */
 .under-title {
   font-weight: 500;
@@ -160,8 +160,6 @@ body {
 .team-section-item {
   background: var(--white);
   text-align: center;
-  width: 264px;
-  height: 380px;
 }
 
 /* -- portfolio section-- */
